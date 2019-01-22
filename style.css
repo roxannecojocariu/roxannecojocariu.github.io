@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto|Inconsolata);
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  font-family:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #646464;
+  background-color: #bdcfd3;
+  margin: 0 0 0 450px;
+}
+
+div {
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.name {
+  font-size: 1.5em;
+  font-family: "Roboto Slab";
+}
+
+.subheading {
+  font-size: 1.2em;
+}
+
+.nav-main-heading {
+  font-family: Inconsolata, Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+.main {
+  font-family: Inconsolata, Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 20px
+}
+
+#project-summaries {
+  background-color: #E0F0F1;
+  font-size: 20px;
+  margin: 1ex 2ex 4ex 0;
+  padding: 0.2ex 1ex 0.2ex 1ex;
+  font-family: Inconsolata, Consolas, "Liberation Mono", Courier, monospace;
+}
+
+.sidenav {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #d1e0e1;
+  overflow-x: hidden;
+  padding-left: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  font-family: "Roboto Slab"
+}
+
+a:hover {
+  color: #000000;
+  font-weight: bold;
+}
